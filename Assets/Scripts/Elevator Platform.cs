@@ -39,13 +39,19 @@ class ElevatorPlatform : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D other){
         string tag = other.gameObject.tag;
         if (tag == "Player" || tag == "Subject" || tag == "Button"){
-            other.transform.parent = transform;
+            if (gameObject.activeInHierarchy)
+            {
+                other.transform.SetParent(transform, true);
+            }
         }
     }
     private void OnCollisionExit2D(Collision2D other){
         string tag = other.gameObject.tag;
         if (tag == "Player" || tag == "Subject" || tag == "Button"){
-            other.transform.parent = null;
+            if (other.transform.parent == transform)
+            {
+                other.transform.SetParent(null, true);
+            }
         }
     }
 }

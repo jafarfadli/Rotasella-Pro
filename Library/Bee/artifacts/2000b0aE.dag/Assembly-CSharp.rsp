@@ -430,15 +430,19 @@
 "Assets/Scripts/Deadly Object.cs"
 "Assets/Scripts/Elevator Platform.cs"
 "Assets/Scripts/Elevator Trigger.cs"
+"Assets/Scripts/Exit Door.cs"
 "Assets/Scripts/Key.cs"
 "Assets/Scripts/Player Movement.cs"
 "Assets/Scripts/Subject Movement.cs"
+"Assets/Scripts/UI Management/Language Dropdown.cs"
+"Assets/Scripts/UI Management/Language Manager.cs"
 "Assets/Scripts/UI Management/Progress Manager.cs"
 "Assets/Scripts/UI Management/UI Home.cs"
 "Assets/Scripts/UI Management/UI Level.cs"
 "Assets/Scripts/UI Management/UI Manager.cs"
 "Assets/Scripts/UI Management/UI Pause.cs"
 "Assets/Scripts/UI Management/UI Slider.cs"
+"Assets/Scripts/UI Management/UI text.cs"
 -langversion:9.0
 /deterministic
 /optimize+

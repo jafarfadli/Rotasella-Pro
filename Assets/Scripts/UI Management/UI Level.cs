@@ -7,6 +7,18 @@ public class UILevel : MonoBehaviour
     [SerializeField] Button[] allLevels;
     private int currentStage = 0;
 
+    private void Awake()
+    {
+        Time.timeScale = 1;
+        firstStage();
+    }
+    
+    public void Start()
+    {
+        int languageIndex = LanguageManager.Instance.GetLanguage();
+        LanguageManager.Instance.SetLanguage(languageIndex);
+    }
+
     public void firstStage()
     {
         currentStage = 0;

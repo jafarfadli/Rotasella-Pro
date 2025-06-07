@@ -79,8 +79,8 @@ public class SubjectMovement : MonoBehaviour
         }
 
         anim.SetBool("move", move);
-        anim.SetBool("down", down);
-        anim.SetBool("jump", !grounded());
+        anim.SetBool("down", down || beingdown);
+        anim.SetBool("grounded", grounded());
     }
 
     private bool grounded()

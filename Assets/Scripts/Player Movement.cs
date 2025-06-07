@@ -129,7 +129,7 @@ public class PlayerMovement : MonoBehaviour
         
         anim.SetBool("move", lefthmove || righthmove);
         anim.SetBool("down", beingdown || leftdown || rightdown);
-        anim.SetBool("jump", !grounded());
+        anim.SetBool("grounded", grounded());
     }
 
     private bool grounded(){

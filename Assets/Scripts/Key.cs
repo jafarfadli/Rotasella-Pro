@@ -22,7 +22,7 @@ public class Key : MonoBehaviour
         if (isTriggered())
         {
             obtained = true;
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 }

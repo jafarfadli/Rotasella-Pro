@@ -1,9 +1,13 @@
 sceneSetups:
 - path: Assets/Settings/Scenes/Home.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
+- path: Assets/Settings/Scenes/Level Select.unity
   isLoaded: 0
   isActive: 0
   isSubScene: 0
 - path: Assets/Settings/Scenes/Test Floor.unity
-  isLoaded: 1
-  isActive: 1
+  isLoaded: 0
+  isActive: 0
   isSubScene: 0

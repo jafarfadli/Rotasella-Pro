@@ -7,7 +7,8 @@ public class UIManager : MonoBehaviour
 
     public void clearUI()
     {
-        foreach (GameObject ui in allUI){
+        foreach (GameObject ui in allUI)
+        {
             ui.SetActive(false);
         }
         Time.timeScale = 1;
@@ -22,5 +23,10 @@ public class UIManager : MonoBehaviour
     {
         clearUI();
         newUI.SetActive(true);
+    }
+
+    public void quitGame()
+    {
+        Application.Quit();
     }
 }

@@ -73,11 +73,15 @@
     <Compile Include="Assets/Scripts/Player Movement.cs" />
     <Compile Include="Assets/Scripts/Camera Movement.cs" />
     <Compile Include="Assets/Scripts/Deadly Object.cs" />
+    <Compile Include="Assets/Scripts/UI Management/UI text.cs" />
+    <Compile Include="Assets/Scripts/UI Management/Language Dropdown.cs" />
     <Compile Include="Assets/Scripts/Button Socket.cs" />
     <Compile Include="Assets/Scripts/Subject Movement.cs" />
     <Compile Include="Assets/Scripts/Audio Management/Music Slider.cs" />
     <Compile Include="Assets/Scripts/UI Management/UI Level.cs" />
+    <Compile Include="Assets/Scripts/Exit Door.cs" />
     <Compile Include="Assets/Scripts/Elevator Platform.cs" />
+    <Compile Include="Assets/Scripts/UI Management/Language Manager.cs" />
     <Compile Include="Assets/Scripts/Key.cs" />
     <Compile Include="Assets/Scripts/UI Management/Progress Manager.cs" />
     <Compile Include="Assets/Scripts/Button Movement.cs" />
